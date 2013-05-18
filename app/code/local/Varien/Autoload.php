@@ -93,7 +93,7 @@ class Varien_Autoload
      * @return string
      */
     static public function getCacheFilePath() {
-        return BP . DS . 'var' . DS . 'classpathcache.php';
+        return BP . DS . 'var' . DS . 'cache' . DS . 'classpathcache.php';
     }
 
     /**
